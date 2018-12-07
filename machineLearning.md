@@ -117,7 +117,7 @@ CT <- train(classe~., data=trainingset, method="rpart")
 fancyRpartPlot(CT$finalModel)
 ```
 
-![](test/figure-markdown_github/unnamed-chunk-3-1.png)
+![pic](test/figure-markdown_github/unnamed-chunk-3-1.png)
 
 #### Validate our model with the test set
 
@@ -256,13 +256,13 @@ cmRF
 plot(modRF1)
 ```
 
-![](machineLearning_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](test/figure-markdown_github/unnamed-chunk-7-1.png)
 
 ``` r
 plot(cmRF$table, col = cmRF$byClass, main = paste("Random Forest Accuracy ", round(cmRF$overall['Accuracy'], 4)))
 ```
 
-![](machineLearning_files/figure-markdown_github/unnamed-chunk-7-2.png)
+![](test/figure-markdown_github/unnamed-chunk-7-2.png)
 
 ### 3. gradient boosting method
 

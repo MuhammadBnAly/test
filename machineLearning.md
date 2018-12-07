@@ -117,7 +117,7 @@ CT <- train(classe~., data=trainingset, method="rpart")
 fancyRpartPlot(CT$finalModel)
 ```
 
-![](machineLearning_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](test/figure-markdown_github/unnamed-chunk-3-1.png)
 
 #### Validate our model with the test set
 
